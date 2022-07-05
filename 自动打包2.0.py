@@ -6,7 +6,7 @@ from tkinter import filedialog as fd
 from tkinter import messagebox
 
 window = tk.Tk()  #初始化
-window.title("自动打包") #设置标题。
+window.title("自动打包") #设置标题
 window.geometry("330x200")
 file = ''
 图标_=''
@@ -64,7 +64,6 @@ def gg():
 \texe文件保存在'dist'当中。
 \t需要等一个大约120秒。
 \t请不要看到未响应就把它关了。
-\t喜欢这东西那下次上课的时候多夸我几次。！！！！！！！！！！！！！！！！！
 """)
 b1 = tk.Button(window, text='点击开始转换',command=djalk)
 b2 = tk.Button(window, text='使用须知',command=gg)
